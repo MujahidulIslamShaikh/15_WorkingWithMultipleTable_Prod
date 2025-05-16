@@ -1,9 +1,8 @@
 ﻿@* @model IEnumerable<WorkingWithMultipleTable_Prod.Models.EmployeeModel> *@
+@* @model IEnumerable<WorkingWithMultipleTable_Prod.Models.DepartmentModel> *@
 @* @model WorkingWithMultipleTable_Prod.Models.ViewModel.EmpDepViewModel  *@
+@model IEnumerable<WorkingWithMultipleTable_Prod.Models.ViewModel.EmpDepKiAllProperties>
 
-@model IEnumerable<WorkingWithMultipleTable_Prod.Models.ViewModel.EmpDepKiAllProperties> 
-
-@* @model WorkingWithMultipleTable_Prod.Models.ViewModel.EmpDepViewModel *@
 @{
 	ViewData["Title"] = "Index";
 }
@@ -19,11 +18,11 @@
 					<tr>
 						<th scope="col">EmpId</th>
 						<th scope="col">Fname</th>
-						<th scope="col">Gender</th> 
+						<th scope="col">Gender</th>
+
+						<th scope="col">DepId</th>
 						<th scope="col">DepName</th>
 						<th scope="col">DepCoded</th>
-						
-						<th scope="col">DepId</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -32,14 +31,19 @@
 						<tr>
 							<th scope="row">@item.EmpId</th>
 							<td>@item.Fname </td>
-							<td>@item.Gender</td> 
+							<td>@item.Gender</td>
+
+							<td>@item.DepId </td>
 							<td>@item.DepName</td>
-							<td>@item.DepCoded</td> 
-							<td>@item.DepId </td>	
+							<td>@item.DepCoded</td>
+
+							@* <td>@item.Department.DepId </td> *@
+							@* <td>@item.Department.DepName</td> *@
+							@* <td>@item.Department.DepCoded</td> *@
 							<td>
-								<a  asp-controller="Employee" asp-action="" asp-route-id="@item.EmpId">Edit</a>
-								<a  asp-controller="Employee" asp-action="" asp-route-id="@item.EmpId">Details</a>
-								<a  asp-controller="Employee" asp-action="" asp-route-id="@item.EmpId">Delete</a>
+								<a asp-controller="Employee" asp-action="" asp-route-id="@item.EmpId">Edit</a>
+								<a asp-controller="Employee" asp-action="" asp-route-id="@item.EmpId">Details</a>
+								<a asp-controller="Employee" asp-action="" asp-route-id="@item.EmpId">Delete</a>
 							</td>
 						</tr>
 					}

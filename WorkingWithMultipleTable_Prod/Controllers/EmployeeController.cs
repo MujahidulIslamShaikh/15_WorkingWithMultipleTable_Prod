@@ -45,18 +45,19 @@ namespace WorkingWithMultipleTable_Prod.Controllers
             //EmployeeModel e = new EmployeeModel();
             //EmployeeModel e = new EmployeeModel();
 
-
-            //var data = Db_context.empDepKiAllProperties.FromSqlRaw("SELECT" +
-            //    " e.EmpId, e.Fname, d.DepId, d.DepName FROM Employee e JOIN Department d" +
-            //    "ON e.DepId = d.DepId;");
-            var data = Db_context.empDepKiAllProperties.FromSqlRaw(
-    "SELECT e.EmpId, e.Fname,e.Gender, d.DepId, d.DepName, d.DepCoded FROM Employees e JOIN Departments d ON e.DepId = d.DepId;"
-);
-
+            //================ FromSqlRaw Join ================
+            //var data = Db_context.empDepKiAllProperties.FromSqlRaw(
+            //"SELECT e.EmpId, e.Fname,e.Gender, d.DepId, d.DepName, d.DepCoded FROM Employees e JOIN Departments d ON e.DepId = d.DepId;"
+            //);
+            //============= Procedural Way ===================
+            //var empdata = Db_context.Employees.FromSqlRaw("exec GetEmpList");
+            //var depdata = Db_context.Departments.FromSqlRaw("exec GetDepList");
+            var data = Db_context.empDepKiAllProperties.FromSqlRaw("exec GetEmpDepList");
 
             //return View(emp);
-            //return View(data);
             return View(data);
+            //return View(empdata);
+            //return View(depdata);
         }
     }
 }

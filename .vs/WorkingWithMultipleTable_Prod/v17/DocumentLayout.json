@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4BFCDA4C-258D-4944-8953-591C54F486D0}|WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj|c:\\users\\name\\source\\repos\\15_workingwithmultipletable_prod\\workingwithmultipletable_prod\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BFCDA4C-258D-4944-8953-591C54F486D0}|WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj|solutionrelative:workingwithmultipletable_prod\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4BFCDA4C-258D-4944-8953-591C54F486D0}|WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj|c:\\users\\name\\source\\repos\\15_workingwithmultipletable_prod\\workingwithmultipletable_prod\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4BFCDA4C-258D-4944-8953-591C54F486D0}|WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj|solutionrelative:workingwithmultipletable_prod\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BFCDA4C-258D-4944-8953-591C54F486D0}|WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj|c:\\users\\name\\source\\repos\\15_workingwithmultipletable_prod\\workingwithmultipletable_prod\\models\\viewmodel\\empdepviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BFCDA4C-258D-4944-8953-591C54F486D0}|WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj|solutionrelative:workingwithmultipletable_prod\\models\\viewmodel\\empdepviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BFCDA4C-258D-4944-8953-591C54F486D0}|WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj|c:\\users\\name\\source\\repos\\15_workingwithmultipletable_prod\\workingwithmultipletable_prod\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BFCDA4C-258D-4944-8953-591C54F486D0}|WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj|solutionrelative:workingwithmultipletable_prod\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BFCDA4C-258D-4944-8953-591C54F486D0}|WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj|c:\\users\\name\\source\\repos\\15_workingwithmultipletable_prod\\workingwithmultipletable_prod\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,18 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4BFCDA4C-258D-4944-8953-591C54F486D0}|WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj|c:\\users\\name\\source\\repos\\15_workingwithmultipletable_prod\\workingwithmultipletable_prod\\data\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BFCDA4C-258D-4944-8953-591C54F486D0}|WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj|solutionrelative:workingwithmultipletable_prod\\data\\applicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BFCDA4C-258D-4944-8953-591C54F486D0}|WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj|c:\\users\\name\\source\\repos\\15_workingwithmultipletable_prod\\workingwithmultipletable_prod\\models\\departmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BFCDA4C-258D-4944-8953-591C54F486D0}|WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj|solutionrelative:workingwithmultipletable_prod\\models\\departmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BFCDA4C-258D-4944-8953-591C54F486D0}|WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj|c:\\users\\name\\source\\repos\\15_workingwithmultipletable_prod\\workingwithmultipletable_prod\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BFCDA4C-258D-4944-8953-591C54F486D0}|WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj|solutionrelative:workingwithmultipletable_prod\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BFCDA4C-258D-4944-8953-591C54F486D0}|WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj|c:\\users\\name\\source\\repos\\15_workingwithmultipletable_prod\\workingwithmultipletable_prod\\models\\viewmodel\\empdepviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BFCDA4C-258D-4944-8953-591C54F486D0}|WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj|solutionrelative:workingwithmultipletable_prod\\models\\viewmodel\\empdepviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BFCDA4C-258D-4944-8953-591C54F486D0}|WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj|c:\\users\\name\\source\\repos\\15_workingwithmultipletable_prod\\workingwithmultipletable_prod\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -54,37 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EmployeeModel.cs",
-              "DocumentMoniker": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\Models\\EmployeeModel.cs",
-              "RelativeDocumentMoniker": "WorkingWithMultipleTable_Prod\\Models\\EmployeeModel.cs",
-              "ToolTip": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\Models\\EmployeeModel.cs",
-              "RelativeToolTip": "WorkingWithMultipleTable_Prod\\Models\\EmployeeModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T22:24:15.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ApplicationContext.cs",
-              "DocumentMoniker": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\Data\\ApplicationContext.cs",
-              "RelativeDocumentMoniker": "WorkingWithMultipleTable_Prod\\Data\\ApplicationContext.cs",
-              "ToolTip": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\Data\\ApplicationContext.cs",
-              "RelativeToolTip": "WorkingWithMultipleTable_Prod\\Data\\ApplicationContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T00:37:59.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "EmpDepKiAllProperties.cs",
               "DocumentMoniker": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\Models\\ViewModel\\EmpDepKiAllProperties.cs",
               "RelativeDocumentMoniker": "WorkingWithMultipleTable_Prod\\Models\\ViewModel\\EmpDepKiAllProperties.cs",
@@ -92,25 +58,24 @@
               "RelativeToolTip": "WorkingWithMultipleTable_Prod\\Models\\ViewModel\\EmpDepKiAllProperties.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAlwAcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T00:58:03.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T00:58:03.356Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\Views\\Employee\\Index.cshtml",
               "RelativeDocumentMoniker": "WorkingWithMultipleTable_Prod\\Views\\Employee\\Index.cshtml",
               "ToolTip": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\Views\\Employee\\Index.cshtml",
               "RelativeToolTip": "WorkingWithMultipleTable_Prod\\Views\\Employee\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAkwCEAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-15T23:03:05.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DepartmentController.cs",
               "DocumentMoniker": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\Controllers\\DepartmentController.cs",
               "RelativeDocumentMoniker": "WorkingWithMultipleTable_Prod\\Controllers\\DepartmentController.cs",
@@ -118,50 +83,49 @@
               "RelativeToolTip": "WorkingWithMultipleTable_Prod\\Controllers\\DepartmentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T22:57:02.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T22:57:02.031Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "WorkingWithMultipleTable_Prod\\Controllers\\EmployeeController.cs",
               "ToolTip": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "WorkingWithMultipleTable_Prod\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAmwDQAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAmwCYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T22:53:27.793Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DepartmentModel.cs",
-              "DocumentMoniker": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\Models\\DepartmentModel.cs",
-              "RelativeDocumentMoniker": "WorkingWithMultipleTable_Prod\\Models\\DepartmentModel.cs",
-              "ToolTip": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\Models\\DepartmentModel.cs",
-              "RelativeToolTip": "WorkingWithMultipleTable_Prod\\Models\\DepartmentModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T22:24:24.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "EmpDepViewModel.cs",
               "DocumentMoniker": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\Models\\ViewModel\\EmpDepViewModel.cs",
               "RelativeDocumentMoniker": "WorkingWithMultipleTable_Prod\\Models\\ViewModel\\EmpDepViewModel.cs",
               "ToolTip": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\Models\\ViewModel\\EmpDepViewModel.cs",
               "RelativeToolTip": "WorkingWithMultipleTable_Prod\\Models\\ViewModel\\EmpDepViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T23:41:13.148Z"
+              "WhenOpened": "2025-05-15T23:41:13.148Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
+              "Title": "ApplicationContext.cs",
+              "DocumentMoniker": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\Data\\ApplicationContext.cs",
+              "RelativeDocumentMoniker": "WorkingWithMultipleTable_Prod\\Data\\ApplicationContext.cs",
+              "ToolTip": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\Data\\ApplicationContext.cs",
+              "RelativeToolTip": "WorkingWithMultipleTable_Prod\\Data\\ApplicationContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T00:37:59.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WorkingWithMultipleTable_Prod\\Views\\Shared\\_Layout.cshtml",
@@ -173,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "20250515222443_init.cs",
               "DocumentMoniker": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\Migrations\\20250515222443_init.cs",
               "RelativeDocumentMoniker": "WorkingWithMultipleTable_Prod\\Migrations\\20250515222443_init.cs",
@@ -185,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\appsettings.json",
               "RelativeDocumentMoniker": "WorkingWithMultipleTable_Prod\\appsettings.json",
