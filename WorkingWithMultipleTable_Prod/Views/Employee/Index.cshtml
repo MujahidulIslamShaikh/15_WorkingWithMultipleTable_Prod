@@ -1,8 +1,9 @@
 ﻿@* @model IEnumerable<WorkingWithMultipleTable_Prod.Models.EmployeeModel> *@
 @* @model WorkingWithMultipleTable_Prod.Models.ViewModel.EmpDepViewModel  *@
-@* @model List<WorkingWithMultipleTable_Prod.Models.ViewModel.EmpDepKiAllProperty> *@
 
-@model WorkingWithMultipleTable_Prod.Models.ViewModel.EmpDepViewModel
+@model IEnumerable<WorkingWithMultipleTable_Prod.Models.ViewModel.EmpDepKiAllProperties> 
+
+@* @model WorkingWithMultipleTable_Prod.Models.ViewModel.EmpDepViewModel *@
 @{
 	ViewData["Title"] = "Index";
 }
@@ -18,7 +19,7 @@
 					<tr>
 						<th scope="col">EmpId</th>
 						<th scope="col">Fname</th>
-						<th scope="col">Gender</th>
+						<th scope="col">Gender</th> 
 						<th scope="col">DepName</th>
 						<th scope="col">DepCoded</th>
 						
@@ -26,14 +27,14 @@
 					</tr>
 				</thead>
 				<tbody>
-					@foreach (var item in Model.Employee)
+					@foreach (var item in Model)
 					{
 						<tr>
 							<th scope="row">@item.EmpId</th>
 							<td>@item.Fname </td>
-							<td>@item.Gender</td>
-							<td>@item.Department.DepName</td>
-							<td>@item.Department.DepCoded</td>
+							<td>@item.Gender</td> 
+							<td>@item.DepName</td>
+							<td>@item.DepCoded</td> 
 							<td>@item.DepId </td>	
 							<td>
 								<a  asp-controller="Employee" asp-action="" asp-route-id="@item.EmpId">Edit</a>
