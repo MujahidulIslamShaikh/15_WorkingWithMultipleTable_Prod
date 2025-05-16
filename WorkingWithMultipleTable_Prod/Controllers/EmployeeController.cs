@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Text;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.SqlServer.Query.Internal;
 using WorkingWithMultipleTable_Prod.Data;
@@ -14,7 +15,20 @@ namespace WorkingWithMultipleTable_Prod.Controllers
         {
             this.Db_context = applicationContext;
         }
-
+        private static string EveryFirstCharCapital(string input)  // ye mothod ko hum jaha jaha chahe call karsakte.
+        {
+                StringBuilder sb = new StringBuilder();   // isme 'sb' me appned karege .
+            if (!string.IsNullOrEmpty(input))
+            {
+                var data = input.Split(' '); // ye indexing kardega 
+                for(int i=0; i<data.Length; i++)
+                {
+                    sb.Append(data[i].First().ToString().ToUpper() + data[i].Substring(1) + " ");
+                }
+                sb.Remove(sb.Length - 1, 1);
+            }
+            return sb.ToString();
+        }
 
         public IActionResult Index()
         {
