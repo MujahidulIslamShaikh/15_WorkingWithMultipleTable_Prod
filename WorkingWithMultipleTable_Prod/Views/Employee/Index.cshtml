@@ -1,7 +1,8 @@
 ﻿@* @model IEnumerable<WorkingWithMultipleTable_Prod.Models.EmployeeModel> *@
-@model WorkingWithMultipleTable_Prod.Models.ViewModel.EmpDepViewModel 
+@* @model WorkingWithMultipleTable_Prod.Models.ViewModel.EmpDepViewModel  *@
+@* @model List<WorkingWithMultipleTable_Prod.Models.ViewModel.EmpDepKiAllProperty> *@
 
-
+@model WorkingWithMultipleTable_Prod.Models.ViewModel.EmpDepViewModel
 @{
 	ViewData["Title"] = "Index";
 }
@@ -10,7 +11,7 @@
 <div class="container">
 	<h1>Index</h1>
 	<div class="row">
-		<div class="col-8 offset-2">
+		<div class="border">
 			@* div ko center me karne ke liye offset use *@
 			<table class="table">
 				<thead>
@@ -19,6 +20,7 @@
 						<th scope="col">Fname</th>
 						<th scope="col">Gender</th>
 						<th scope="col">DepName</th>
+						<th scope="col">DepCoded</th>
 						
 						<th scope="col">DepId</th>
 					</tr>
@@ -31,6 +33,7 @@
 							<td>@item.Fname </td>
 							<td>@item.Gender</td>
 							<td>@item.Department.DepName</td>
+							<td>@item.Department.DepCoded</td>
 							<td>@item.DepId </td>	
 							<td>
 								<a  asp-controller="Employee" asp-action="" asp-route-id="@item.EmpId">Edit</a>

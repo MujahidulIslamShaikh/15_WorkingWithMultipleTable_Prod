@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\name\\source\\repos\\WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj": {}
+    "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj": {}
   },
   "projects": {
-    "C:\\Users\\name\\source\\repos\\WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj": {
+    "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\name\\source\\repos\\WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj",
+        "projectUniqueName": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj",
         "projectName": "WorkingWithMultipleTable_Prod",
-        "projectPath": "C:\\Users\\name\\source\\repos\\WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj",
+        "projectPath": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj",
         "packagesPath": "C:\\Users\\name\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\name\\source\\repos\\WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\obj\\",
+        "outputPath": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

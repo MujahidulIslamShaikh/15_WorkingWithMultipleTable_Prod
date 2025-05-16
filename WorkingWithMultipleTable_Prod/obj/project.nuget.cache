@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uqXf5fGhJHw=",
+  "dgSpecHash": "0fYgD1j9laY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\name\\source\\repos\\WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj",
+  "projectFilePath": "C:\\Users\\name\\source\\repos\\15_WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod\\WorkingWithMultipleTable_Prod.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\name\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\name\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
