@@ -33,9 +33,17 @@ namespace WorkingWithMultipleTable_Prod.Controllers
         public IActionResult Index()
         {
             // ============ Using Merge Model ==============
-            //EmpDepViewModel emp = new EmpDepViewModel();
+            var empdata = Db_context.Employees.ToList();
+            var depdata = Db_context.Departments.ToList();
+            EmpDepViewModel emp = new EmpDepViewModel()
+            {
+                Employee = empdata,
+                Department = depdata
+            };
+
             //emp.Employee = Db_context.Employees.ToList();
-            //emp.Department = Db_context.Departments.ToList();
+            //emp.Department = Db_context.Departments.ToList
+            //
 
             // ============ Using Sql Merge Model ========================
             //EmpDepViewModel emp = new EmpDepViewModel();
@@ -66,10 +74,11 @@ namespace WorkingWithMultipleTable_Prod.Controllers
             //============= Procedural Way ===================
             //var empdata = Db_context.Employees.FromSqlRaw("exec GetEmpList");
             //var depdata = Db_context.Departments.FromSqlRaw("exec GetDepList");
-            var data = Db_context.empDepKiAllProperties.FromSqlRaw("exec GetEmpDepList");
 
-            //return View(emp);
-            return View(data);
+            //var data = Db_context.empDepKiAllProperties.FromSqlRaw("exec GetEmpDepList");
+
+            return View(emp);
+            //return View(data);
             //return View(empdata);
             //return View(depdata);
         }
